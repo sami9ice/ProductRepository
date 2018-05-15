@@ -24,7 +24,7 @@ namespace ProductRepository.Controllers.api
             try
             {
                 var result = repo.GetAll();
-                return Request.CreateResponse<IEnumerable<Product>>(HttpStatusCode.Created, result);
+                return this.Request.CreateResponse<IEnumerable<Product>>(HttpStatusCode.Created, result);
             }
             catch(Exception ex)
             {

@@ -145,6 +145,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepoPattern\IProdRepository.cs" />
     <Compile Include="RepoPattern\ProdRepository.cs" />
+    <Compile Include="RepoPattern\ProductContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
